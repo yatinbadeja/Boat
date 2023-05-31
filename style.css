@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+}
+section{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+}
+.section-right{
+    margin-left:12vh;
+    margin-top: 6vh;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    margin-top: -3vh;
+    opacity: .8;
+    word-spacing: 8px;
+}
+section button{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    padding-left: 20px;
+    background-color:#1e1e21;
+    width: 221px;
+    height: 45px;
+    border-radius: .5em;
+}
+
+section button p{
+    margin-top: 2px;
+    font-weight: 600;
+}
+section button span{
+    font-size: large;
+    font-weight: 500;
+}
+.marketplace{
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-evenly;
+}
+.marketplace img{
+    width: 80px;
+    height: 28px;
+}
+.specs{
+    display: flex;
+}
+.head{
+    justify-content: space-around;
+}
+.bluetooth{
+    height: 120px;
+    width: 250px;
+}
+#safe{
+    font-weight: 600;
+}
+p{
+    font-weight: 200;
+}
+.bluetooth{
+    margin-left: 30px;
+}
+.battery,.charger{
+    margin-bottom: 20px;
+}
+.microphone{
+    margin-left: 30px;
+}
+img[alt="specsimage"]{
+    padding-top: 120px;
+}
+.container-case{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    align-items:center;
+    gap:30px;
+    
+}
+.case-right{
+      line-height: 35px;
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 20px;
+}
+.case{
+    justify-content: space-evenly;
+}
+.hustle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:180px;
+    margin-top: 70px;
+    background: #1e1e21;
+    padding: 40px 0px;
+    border-radius: 1em;
+}
+.hustle-left{
+    line-height: 24px;
+}
+.choose{
+    display: flex;
+    gap:50px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.box1,.box2,.box3,.box4,.box5{
+   width: 130px;
+   height: 130px;
+   background: #1e1e21;
+   padding-left: 20px;
+   border-radius: .5em;
+}
+.box img{
+    height: 100px;
+    width: 75px;
+    background:transparent;
+    margin-top: -40px;
+}
+.item-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:transparent;
+    margin-top: 12px;
+}
+.content-left{
+    background-color: transparent;
+}
+.content-left h2{
+    font-size: 10px;
+    background:#1e1e21;
+    /* margin-bottom: 4px; */
+}
+.content-left p{
+    background: #1e1e21;
+    font-size: 12px;
+    /* background-color: transparent; */
+}
+
+.item-content img{
+    height: 13px;
+    width: 13px;
+    background:transparent;
+}
+.lastmain{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.footer{
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer h2{
+    font-weight: 500;
+}
+.footer-img{
+    display: flex;
+}
+.placeholdr{
+    display: flex;
+    align-items: center;
+    background: #181A1B;
+    padding-left: 12px;
+    border-radius: .5em;
+}
+.style1{
+    display: flex;
+}
+.subscribe-right{
+    display: flex;
+    gap:12px;
+    align-items: center;
+    justify-content: center;
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 12px;
+    
+}
+.subscribe-right p{
+    margin-top: 2px;
+}
+.subscribe-right img{
+    background: #0A0A0B;   
+}
+.subscribe{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    border-radius: 8px;
+    
+}
+.section-841 .subscribe{
+    background-color:#1e1e21;
+}
+input{
+    background-color:#1e1e21;
+    height: 45px;
+    border: #181A1B;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 8px;
+}
+.footer-img{
+    margin-top: 40px;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    margin-left: 0px;
+    gap:20px;
+
+}
+.gold{
+    display: flex;
+}
+.item-content .content-left h2{
+    font-size: 10px;
+}
+.footer{
+    gap:60px;
+}
